@@ -328,6 +328,7 @@ body,html{
 .wrap_contain .center .list .colunm{
     color: rgb(37, 62, 109);
     font-weight: 700;
+    flex-shrink: 0;
 }
 .wrap_contain .center .list .colunm:hover{
     color: #5745fe;
@@ -534,3 +535,244 @@ body,html{
 .wrap_contain .center .right .mainImg .demo .iconfont{
     font-size: 40px;
 }
+@media(max-width:1400px){
+    body,html{
+        width: 1200px;
+        min-width: 1200px;
+        margin: 0 auto;
+    }
+    .top .center{
+        width: 1200px;
+        height: 80px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 1200px;
+    }
+    .nav .center{
+    height: 50px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #4755da;
+    }
+    .wrap_ad .center{
+        margin: 0 auto;
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrap_ad .center .left a img{
+        width: 788px;
+    }
+    .wrap_ad .center .right{
+        width: 377px;
+    }
+    .wrap_ad .center .right .picture a img{
+        width: 377px;
+    }
+    .wrap_contain .center{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+    }
+    .wrap_contain .center .left{
+        width: 377px;
+    }
+    .wrap_contain .center .mid{
+        margin-left: 34px;
+        width: 377px;
+    }
+    .wrap_contain .center .right{
+        width: 377px;
+        margin-left: 34px;
+    }
+    .wrap_contain .center .right .mainImg a img{
+        width: 377px;
+    }
+    .wrap_contain .center .right .navBox ul li .navList li a{
+        font-size: 11px;
+    }
+
+
+    .wrap_contain .main .list .news {
+        line-height: 32px;
+        font-size: 14px;
+        display: flex;
+        align-items: flex-start;
+    }
+    .wrap_contain .main  .newsHasImg .text{
+        margin-left: 15px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .wrap_contain .center .right .title .nav {
+        display: flex;
+        align-items: center;
+        line-height: 43px;
+        font-size: 18px;
+    }
+    .wrap_contain .center .right .title .desc {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+    }
+    .wrap_contain .center .main .division{
+        width: 377px;
+        height: 32px;
+        position: relative;
+        background: url(./img/分割线.png) left 22px no-repeat;
+    }
+    .wrap_contain .center .main .division img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width:157px;
+    }
+    .wrap_contain .main .list .newsOne {
+        padding: 12px 0 6px 0;
+        height: 32px;
+        word-wrap: break-word;
+        word-break: normal;
+    }
+    .wrap_contain .center .right .mainImg div {
+        position: absolute;
+        font-size: 14px;
+        left: 15px;
+        bottom: 20px;
+        color: white;
+    }
+    .wrap_contain .center .right .mainImg .demo{
+        width: 34px;
+        height: 34px;
+        left: 15px;
+        bottom: 50px;
+    }
+    .wrap_contain .center .right .mainImg .demo .iconfont{
+        font-size: 34px;
+    }
+}
+@media(max-width:1200px){
+    body,html{
+        width: 1000px;
+        min-width: 1000px;
+        margin: 0 auto;
+    }
+    .top .center{
+        width: 1000px;
+        height: 80px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 1000px;
+    }
+    .nav .center{
+    height: 50px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #4755da;
+    }
+    .wrap_ad .center{
+        margin: 0 auto;
+        width: 1000px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrap_ad .center .left a img{
+        width: 657px;
+    }
+    .wrap_ad .center .right{
+        width: 314px;
+    }
+    .wrap_ad .center .right .picture a img{
+        width: 314px;
+    }
+    .wrap_contain .center{
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+    }
+    .wrap_contain .center .left{
+        width: 314px;
+    }
+    .wrap_contain .center .mid{
+        margin-left: 28px;
+        width: 314px;
+    }
+    .wrap_contain .center .right{
+        width: 314px;
+        margin-left: 28px;
+    }
+    .wrap_contain .center .right .mainImg a img{
+        width: 314px;
+    }
+    .wrap_contain .center .right .navBox ul li .navList li a{
+        font-size: 11px;
+        margin-right: 10px;
+    }
+
+    .wrap_contain .center .right .navBox ul li:nth-of-type(-n+3) .navList li:last-of-type{
+        display: none;
+    }
+    .wrap_contain .center .right .navBox ul li:last-of-type .navList li:nth-of-type(6){
+        display: none;
+    }
+    .wrap_contain .main .list .news {
+        line-height: 28px;
+        font-size: 12px;
+        display: flex;
+        align-items: flex-start;
+    }
+    .wrap_contain .main  .newsHasImg .text{
+        margin-left: 15px;
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .wrap_contain .center .right .title .nav {
+        display: flex;
+        align-items: center;
+        line-height: 43px;
+        font-size: 16px;
+    }
+    .wrap_contain .center .right .title .desc {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+    }
+    .wrap_contain .center .main .division{
+        width: 314px;
+        height: 28px;
+        position: relative;
+        background: url(./img/分割线.png) left 22px no-repeat;
+    }
+    .wrap_contain .center .main .division img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width:131px;
+    }
+    .wrap_contain .main .list .newsOne {
+        padding: 10px 0 5px 0;
+        height: 28px;
+        word-wrap: break-word;
+        word-break: normal;
+    }
+    .wrap_contain .center .right .mainImg div {
+        position: absolute;
+        font-size: 11px;
+        left: 15px;
+        bottom: 20px;
+        color: white;
+    }
+    .wrap_contain .center .right .mainImg .demo{
+        width: 28px;
+        height: 28px;
+        left: 15px;
+        bottom: 50px;
+    }
+    .wrap_contain .center .right .mainImg .demo .iconfont{
+        font-size: 28px;
+    }
+}
+
